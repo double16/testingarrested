@@ -4,3 +4,5 @@ plugin.xml
 *.zip
 *.log
 target-eclipse
+.c9/metadata
+.c9/.nakignore

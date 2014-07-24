@@ -1,0 +1,45 @@
+{
+    "run": {
+        "@path": "/.c9/runners",
+        "configs": {
+            "json()": {
+                "run-app": {
+                    "debug": true,
+                    "command": "./grailsw run-app -Dgrails.server.port=${PORT} -Dgrails.server.host=${IP}",
+                    "runner": "Shell command",
+                    "name": "run-app",
+                    "env": {
+                        "JAVA_HOME": "/usr/lib/jvm/java-7-openjdk-amd64"
+                    },
+                    "default": true
+                }
+            },
+            "@inited": "true"
+        }
+    },
+    "share": {
+        "@preview": false,
+        "@app": false,
+        "@useOwnerSettings": false
+    },
+    "ace": {
+        "@newLineMode": "unix",
+        "@tabSize": "4",
+        "@useSoftTabs": "true",
+        "@guessTabSize": "true"
+    },
+    "find.nak": {
+        "@searchLimit": 100
+    },
+    "language": {
+        "@warnLevel": "info",
+        "@instanceHighlight": "true",
+        "@undeclaredVars": "true",
+        "@unusedFunctionArgs": "false"
+    },
+    "build": {
+        "@path": "/.c9/builders",
+        "@saveall": true,
+        "@builder": "auto"
+    }
+}
